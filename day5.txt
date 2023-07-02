@@ -1,0 +1,65 @@
+
+{
+  "basics": {
+    "name": "V.PAVITHRA",
+    "label": "STUDENT",
+    "picture": "",
+    "email": "pavivijayakumar8@gmail.com",
+    "phone": "(638) 529-8821",
+    "degree": "",
+    "website": "https://www.guvi.in/#",
+    "summary": "student of guvi",
+    "location": {
+      "address": "32/2....",
+      "postalCode": "631003",
+      "city": "Arakkonam",
+      "countryCode": "India",
+      "region": "hindu"
+    },
+    "profiles": [
+      {
+        "network": "instagram",
+        "username": "....",
+        "url": "...."
+      }
+    ]
+  },
+ 
+  "education": [
+    {
+      "institution": "Arts",
+      "area": "COMPUTER APPLICATION",
+      "studyType": "Bachelor",
+      "startDate": "2020",
+      "endDate": "2023",
+      "gpa": "",
+      "courses": [
+        "BCA"
+      ]
+    }
+  ],
+  
+  "skills": [
+    {
+      "name": "fullstack developer",
+      "level": "bachelor",
+      "keywords": [
+        "Keywords under this category (e.g. 'Javascript', 'html', etc)"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "tamil,english",
+      "fluency": "good"
+    }
+  ],
+  "interests": [
+    {
+      "name": "IT",
+      "keywords": [
+        programming,development of web,application)"
+      ]
+    }
+  ]
+}
