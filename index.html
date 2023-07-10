@@ -8,41 +8,42 @@
 <body>
     <style>
         input {
-          color: rgb(19, 17, 17);
+          color: rgba(6, 129, 245, 0.856);
           background-color: rgb(206, 221, 220);
         }
         label {
-          color: rgba(15, 2, 5, 0.801);
+          color: rgba(19, 18, 18, 0.801);
         }
         
       </style>
-    </head>
+      <link rel="stylesheet" type="text/css" href="index.css"/>
+      </head>
     <body style="background-color: rgb(184, 184, 33)">
       <h1 style="color: rgb(21, 22, 22); font-size: 30px">Application Form</h1>
       <form>
-        <label for="name">Name:</label>
+        <label for="name"><strong>Name:</strong></label>
         <input id="name" type="text" />
         <br />
         <br />
-        <label for="email">Email:</label>
+        <label for="email"><strong>Email:</strong></label>
         <input id="email" type="email" />
         <br />
         <br />
-        <label for="password">Password:</label>
+        <label for="password"><strong>Password:</strong></label>
         <input id="password" type="password" />
         <br />
         <br />
-        <label for="dob">DOB:</label>
+        <label for="dob"><strong>DOB:</strong></label>
         <input id="dob" type="date" />
         <br />
         <br />
-        <label id="gender">Gender:</label>
-        <input type="radio" name="gender" /> <label>Male</label>
-        <input type="radio" name="gender" /> <label>Female</label>
-        <input type="radio" name="gender" /> <label>Others</label>
-        <br />
-        <br />
-        <label for="upload">Upload Documents:</label>
+        <label id="gender"><strong>Gender:</strong></label>
+        <ul>
+        <input type="radio" name="gender" /> <label style="font-style:normal;color: blueviolet;"><strong>Male</strong></label>
+        <input type="radio" name="gender" /> <label style="font-style:normal;color: blueviolet;"><strong>Female</strong></label>
+        <input type="radio" name="gender" /> <label style="font-style:normal;color: blueviolet;"><strong>Others</strong></label>
+        </ul>
+        <label for="upload"><strong>Upload Documents:</strong></label>
         <input id="upload" type="file" />
         <br />
         <br />
