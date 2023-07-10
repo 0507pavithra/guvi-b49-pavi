@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input {
+          color: rgb(19, 17, 17);
+          background-color: rgb(206, 221, 220);
+        }
+        label {
+          color: rgba(15, 2, 5, 0.801);
+        }
+        
+      </style>
+    </head>
+    <body style="background-color: rgb(184, 184, 33)">
+      <h1 style="color: rgb(21, 22, 22); font-size: 30px">Application Form</h1>
+      <form>
+        <label for="name">Name:</label>
+        <input id="name" type="text" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input id="email" type="email" />
+        <br />
+        <br />
+        <label for="password">Password:</label>
+        <input id="password" type="password" />
+        <br />
+        <br />
+        <label for="dob">DOB:</label>
+        <input id="dob" type="date" />
+        <br />
+        <br />
+        <label id="gender">Gender:</label>
+        <input type="radio" name="gender" /> <label>Male</label>
+        <input type="radio" name="gender" /> <label>Female</label>
+        <input type="radio" name="gender" /> <label>Others</label>
+        <br />
+        <br />
+        <label for="upload">Upload Documents:</label>
+        <input id="upload" type="file" />
+        <br />
+        <br />
+        <label style="color: rgb(10, 15, 27)" id="District"><strong>District</strong>:</label>
+        <select>
+          <option>Chennai</option>
+          <option>Vellore</option>
+          <option>Ranipet</option>
+        </select>
+        <br />
+        <br />
+        <input type="submit" value="Save" />
+        <input type="reset" value="Cancel" />
+      </form>
+    </body>
+</body>
+</html>
