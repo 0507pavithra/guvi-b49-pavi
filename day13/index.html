@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Parent">Parent</div>
+    <a href="https://www.zenclass.in/class">CLICK</a>
+
+    <script>
+      const ele = document.createElement("div");
+      ele.setAttribute("id", "Parentdiv");
+      ele.setAttribute("class", "Parent");
+      ele.innerText = "helloo";
+      const ParentEle = document.getElementById("Parent");
+      ParentEle.appendChild(ele);
+    </script>
+    <br />
+    <br />
+    <div id="Par">ELEMENT</div>
+    <a href="https://www.zenclass.in/class">CLICK HERE</a>
+    <script>
+      const elem = document.createElement("a");
+      elem.setAttribute("href", "https://www.zenclass.in/class");
+      elem.setAttribute("target", "_blank");
+      elem.innerText = "https://www.zenclass.in/class";
+
+      const ParEle = document.getElementById("Par");
+      linkelem.appendChild(elem);
+    </script>
+  </body>
+</html>
