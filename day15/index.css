@@ -1,0 +1,41 @@
+body{
+    font-style:oblique;
+    background-color: rgb(248, 248, 232);
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.container{
+    border-top: 40px;
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgb(27, 20, 20);
+}
+div{
+    background-color: bisque;
+    padding:8px 16px;
+}
+form{
+    margin-bottom: 40px
+}
+label{
+    margin-bottom: 50px;
+}
+button{
+    padding:8px 16px;
+    color: rgb(12, 24, 24);
+    background-color: hsl(220, 43%, 85%);
+    cursor: pointer;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding:10px;
+    border-bottom: 3px solid rgb(236, 182, 116);
+}
+th{
+    background-color:blanchedalmond;
+}

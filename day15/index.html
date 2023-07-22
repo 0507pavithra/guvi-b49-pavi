@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS EXAMPLE</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <label>FirstName:</label>
+        <input id="Firstname" type="text" />
+        <br />
+        <br />
+
+        <label>LastName:</label>
+        <input id="Lastname" type="text" />
+        <br />
+        <br />
+
+        <label>Address:</label>
+        <input id="address" type="text" />
+        <br />
+        <br />
+
+        <label>Pincode:</label>
+        <input id="pincode" type="number" />
+        <br />
+        <br />
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" /> Male:
+        <input type="radio" name="gender" value="female" /> Female:
+        <input type="radio" name="gender" value="others" /> Others:
+        <br />
+        <br />
+        <label>Choice of food:</label>
+
+        <input type="checkbox" name="food" value="Pizza" /> Pizza
+        <input type="checkbox" name="food" value="Burger" /> Burger
+        <input type="checkbox" name="food" value="Momos" /> Pasta
+        <input type="checkbox" name="food" value="Shawarma" /> Sushi
+        <input type="checkbox" name="food" value="Brownie" /> Salad
+        <input type="checkbox" name="food" value="Noodles" /> Noodles
+
+        <br />
+        <br />
+        <button type="submit">ORDER</button>
+      </form>
+      <table id="data">
+        <thead>
+          <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Address</th>
+            <th>Gender</th>
+            <th>Pincode</th>
+            <th>Food</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
