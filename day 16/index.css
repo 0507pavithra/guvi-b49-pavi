@@ -1,0 +1,52 @@
+button{
+    background: #0aff2f;
+    background-image: -webkit-linear-gradient(top, #0aff2f, #1df705);
+    background-image: -moz-linear-gradient(top, #0aff2f, #1df705);
+    background-image: -ms-linear-gradient(top, #0aff2f, #1df705);
+    background-image: -o-linear-gradient(top, #0aff2f, #1df705);
+    background-image: linear-gradient(to bottom, rgb(233, 230, 241), #93aa90);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #cf04b1;
+    font-size: 23px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background: #00f767;
+    background-image: -webkit-linear-gradient(top, #c4ebd4, #096902);
+    background-image: -moz-linear-gradient(top, #b0d6c0, #096902);
+    background-image: -ms-linear-gradient(top, #00f767, #096902);
+    background-image: -o-linear-gradient(top, #00f767, #096902);
+    background-image: linear-gradient(to bottom, #00f767, #096902);
+    text-decoration: none;
+  }
+  
+  span {
+    font-family: Arial;
+    color: #cf04b1;
+    font-size: 23px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  div {
+    margin-top: 2cm
+    
+  }
+  
+  body{
+    background-color: #000000; 
+  }
+  
+  h1{
+    font-family: Arial;
+    color: #cf04b1;
+    font-size: 23px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
