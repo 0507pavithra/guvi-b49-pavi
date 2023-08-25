@@ -1,13 +1,14 @@
 import { useState } from 'react'
-import './App.css';
-import Cart from './Cart';
- 
+import './App.css'
+import TodoApp from './Todoapp';
+const App=()=> {
 
-const App = ()=>{
-  return(
+  return (
     <div>
-      <Cart/>
-    </div>
+      <h1>Todo App</h1>
+      <TodoApp/>
+   </div>
   );
 };
+
 export default App;
