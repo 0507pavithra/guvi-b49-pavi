@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+#name{
+  background-color: rgb(127, 151, 71);
+  border-radius: 25%;
+  border: solid black;
+}
